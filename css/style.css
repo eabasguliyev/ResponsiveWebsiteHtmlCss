@@ -258,8 +258,64 @@ p {
   .nav-links li {
     margin: 30px auto;
   }
+
+  /* Events */
+  .row {
+    flex-direction: column;
+  }
+
+  .col img {
+    max-width: 90%;
+  }
+
+  .row .col {
+    margin: 20px auto;
+  }
+
+  /* Explore */
+  .explore-content {
+    width: 100%;
+  }
+
+  .tours .col {
+    width: 100%;
+  }
+
+  .image-gallery {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-gallery img {
+    width: 90%;
+  }
+
+  .footer {
+    padding: 10px;
+  }
 }
 
-/* https://www.youtube.com/watch?v=ZdJSHEczi_0 
-16:03
+/* Animations */
+
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.ctn:hover {
+  background-color: whitesmoke;
+  color: #fc036b;
+  box-shadow: 2px 2px 5px #00000056;
+}
+
+li:hover {
+  color: #fc036b;
+  cursor: pointer;
+}
+
+/*
+ https://www.youtube.com/watch?v=ZdJSHEczi_0 
 */
